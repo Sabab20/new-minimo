@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+   color:#333;
+}
+
+img{
+
+width: 100%;
+}
+li{
+	list-style: none;
+}
+
+header{
+	background-color: #fff;
+	padding: 20px 0;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
+.container{
+	width:  calc(100% - 200px) ;
+	margin: auto;
+	
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.flex{
+ display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.logo{ 
+	width: 15%; 
+	
+    flex: 0 0 auto;
+   }
+
+  
+nav
+{
+	width: 85%;
+    flex: 0 0 auto;
+}
+nav ul{
+
+    justify-content:flex-end; 
+}
+
+nav ul li a{
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration:none;
+    padding: 15px 40px; 
+    display:block;
+}
+nav ul li a:hover{
+ color: white;
+ background-color: #333;
+}
+
+
+.banner{
+	
+	padding:20px 0;
+}
+
+.banner img{
+
+width: 100%;
+flex: 0 0 auto;
+}
+
+article .p1{
+line-height: 30px;
+  width: 100%;	
+  padding: 0 20px;
+}
+
+article .p2
+{ 
+	line-height: 32px;
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+article h1{
+	
+line-height: 30px;
+	width: 100%;
+	padding: 20px;
+	font-size:30px;
+	color: grey;
+	font-weight:600;
+}
+
+article a h2 {
+  line-height: 30px;
+	width: 100%;
+	padding: 20px;
+	font-size:25px;
+	color: grey;
+	font-weight:600;
+}
+ .col-1-1 a{
+ 	padding: 20px;
+ }
+
+
+.col-1-1
+{   
+    width:100%;
+	flex: 0 0 auto;
+	padding: 100px;
+	
+}
+
+
+ 
+
+
+ .col-2-1
+{
+  width: 50%;
+  flex:0 0 auto;
+  padding: 50px;
+}
+
+.paddingleft{
+ padding-left: 115px;
+}
+
+.paddingright{
+
+  padding-right:115px;
+}
+
+.container img{
+	width:100%;
+	margin-bottom: 30px;
+	display: block;
+}
+  
+
+
+
+
+
+footer .col-2-1{
+	padding: 30px 100px;
+}
+
+footer .container
+{
+  width: 100% ;
+  background-color: #dedede ;
+	
+}
+.menu
+{   width: 60%; 
+	padding:30px;
+    flex: 0 0 auto;}
+
+.social
+{   
+		width: 40%;
+    flex: 0 0 auto;
+    justify-content:flex-end;
+}
+.social li{
+	
+}
+.social li a{
+	display: block;
+    color:#232323 ;
+    font-size:16px;
+    text-decoration:none;
+    padding-right:30px; 
+    font-weight: 600;
+}
+
+.social li a:hover{
+	color: #23232370;
+}
+
+.social span
+{ font-size: 22px;
+  display: inline-block;
+  padding: 30px 30px;
+}
+
+
+.menu {
+ 
+	padding-left: 50px;
+}
+
+.menu li{
+	list-style: none;
+	padding-left: 50px; 
+}
+.menu li  a{ 
+	display: block;
+    color:#232323 ;
+    font-size:16px;
+    text-decoration:none;
+    padding-left: 30px; 
+    font-weight: 600;
+}
